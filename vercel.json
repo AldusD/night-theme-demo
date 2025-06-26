@@ -1,14 +1,7 @@
 {
-  "builds": [
-    {
-      "src": "dist/angular-night-theme/**",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+  "outputDirectory": "dist/angular-night-theme",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
