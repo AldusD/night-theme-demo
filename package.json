@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production --base-href=/",
+    "build": "ng build --configuration production --base-href=/night-theme-demo/browser",
+    "deploy": "npx angular-cli-ghpages --dir=dist/angular-night-theme/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
