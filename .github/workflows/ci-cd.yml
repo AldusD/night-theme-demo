@@ -28,4 +28,4 @@ jobs:
         if: success()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx angular-cli-ghpages --dir=dist/angular-night-theme/browser --silent=false
+        run: npx angular-cli-ghpages --dir=dist/angular-night-theme/browser
