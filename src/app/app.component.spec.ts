@@ -13,7 +13,7 @@ describe('App', () => {
   });
 
  
-  xit('This test will always fail', () => {
+  it('This test will always fail', () => {
     expect(false).toBeTruthy();
   })
 });
