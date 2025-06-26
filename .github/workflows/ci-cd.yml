@@ -22,10 +22,8 @@ jobs:
 
       - run: npm run build -- --configuration production
 
-      - run: ls -la dist/angular-night-theme/browser
-
       - name: Deploy to GitHub Pages
         if: success()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx angular-cli-ghpages --dir=dist/angular-night-theme/browser
+        run: npx angular-cli-ghpages --dir=dist/angular-night-theme
