@@ -12,9 +12,8 @@ describe('App', () => {
     expect(true).toBeTruthy();
   });
 
-  /* aa
+ 
   it('This test will always fail', () => {
     expect(false).toBeTruthy();
   })
-  */
 });
