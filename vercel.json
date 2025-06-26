@@ -1,10 +1,7 @@
 {
+  "outputDirectory": "dist/angular-night-theme/browser",
   "cleanUrls": true,
-  "trailingSlash": false,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "static": {
-    "directory": "dist/angular-night-theme/browser"
-  }
+  ]
 }
