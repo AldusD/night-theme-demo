@@ -1,0 +1,12 @@
+<div [class.night]="isNightTheme" class="container">
+  <h1>{{ isNightTheme ? 'Boa Noite! 🌙' : 'Bom Dia! ☀️' }}</h1>
+
+  <label class="switch">
+    <input type="checkbox" [checked]="isNightTheme" (change)="toggleTheme()" />
+    <span class="slider"></span>
+  </label>
+
+  <p *ngIf="isNightTheme" class="secret-message">
+    🌌 Não era mais o mesmo, mas estava em seu lugar.
+  </p>
+</div>
