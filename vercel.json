@@ -1,5 +1,5 @@
 {
-  "outputDirectory": "dist/angular-night-theme",
+  "outputDirectory": "dist/angular-night-theme/browser",
   "cleanUrls": true,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
