@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/angular-night-theme/browser",
+            "outputPath": "dist/angular-night-theme",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
